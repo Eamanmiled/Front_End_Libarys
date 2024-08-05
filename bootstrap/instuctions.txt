@@ -1,0 +1,13 @@
+How to include Bootstrap CSS:
+
+Add the following line in the <head> section of your HTML to include Bootstrap's CSS:
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+Add the following line before the closing </body> tag to include jQuery (required by Bootstrap 4):
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+Add the following line before the closing </body> tag to include Popper.js (required for tooltips and popovers):
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+
+Add the following line before the closing </body> tag to include Bootstrap's JavaScript:
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

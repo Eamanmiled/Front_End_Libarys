@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap_css.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="https://getbootstrap.com/">Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./example_page1.html">Bootstrap example page 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./example_page2.html">Bootstrap example page 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./example_page3.html">Bootstrap example page 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Explore all my different examples of bootstrap</h1>
+        <p class="lead">My name is Eamann and i will be your host today</p>
+        <a class="btn btn-primary btn-lg" href="https://github.com/Eamanmiled" role="button">Learn more about me</a>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./images/page1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Example page 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="./example_page1.html" class="btn btn-primary">Go to example 1</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./images/mymelody.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Example page 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="./example_page2.html" class="btn btn-primary">Go to example page 2</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./images/mymelody.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Example page 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="./example_page3.html" class="btn btn-primary">Go to example page 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
