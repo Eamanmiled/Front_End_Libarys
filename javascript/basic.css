@@ -17,3 +17,15 @@
 .confirm_box:hover {
     background-color: rgb(166, 86, 86);
 }
+
+.horizontal {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal li {
+    margin: 0 15px; 
+}
