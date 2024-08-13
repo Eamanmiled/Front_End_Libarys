@@ -1,0 +1,82 @@
+.confirm_box {
+    width: 300px;
+  border: 5px solid maroon;
+  margin: auto;
+  text-align: center;
+  padding: 7px;
+  background-color: maroon;
+  color: white;
+  font-size: larger;
+  border-radius: 25px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+
+
+.confirm_box:hover {
+    background-color: rgb(166, 86, 86);
+    border: 5px solid rgb(166, 86, 86);
+}
+
+.confirm_box:active {
+    background-color: rgb(172, 107, 107);
+    border: 5px solid rgb(172, 107, 107);
+}
+
+.horizontal {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal li {
+    margin: 0 15px; 
+}
+
+#switchButton {
+    justify-content: right;
+    width: 200px;
+  border: 5px solid rgb(27, 16, 92);
+  margin: auto;
+  padding: 7px;
+  background-color: rgb(27, 16, 92);
+  color: white;
+  font-size: large;
+  border-radius: 25px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+#switchButton:hover {
+    background-color: rgb(50, 43, 91);
+    border: 5px solid rgb(50, 43, 91);
+}
+
+#switchButton:active {
+    background-color: rgb(58, 52, 91);
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.jumbotron-dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+#guy1:hover {
+    transform: scale(1.1); 
+}

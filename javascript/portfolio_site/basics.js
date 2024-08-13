@@ -5,3 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Unsubscribed!');
     });
 });
+
+document.getElementById('switchButton').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+});
