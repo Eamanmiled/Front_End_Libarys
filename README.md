@@ -19,6 +19,7 @@ The script consists of the following main components:
 2. folder Containing HTML Site that uses JS across the pages
 
 ### 3. React portfolio 
-- under construction 
+under construction 
+
 **Instructions** 
  - a txt file that contains instructions on how to include bootstrap via CDN
