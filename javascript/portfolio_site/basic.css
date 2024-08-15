@@ -24,17 +24,31 @@
     border: 5px solid rgb(172, 107, 107);
 }
 
+#icon1:hover {
+    transform: scale(1.1);
+}
+
+#icon2:hover {
+    transform: scale(1.1);
+}
+
+#icon3:hover {
+    transform: scale(1.1);
+}
+
 .horizontal {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
+    transition: transform 0.3s ease-in-out;
 }
 
 .horizontal li {
     margin: 0 15px; 
 }
+
 
 #switchButton {
     justify-content: right;
