@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClockInUI</title>
+    <link rel="icon" type="image/x-icon" href="./images/home.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./clockout.css">
@@ -13,7 +14,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-            <img src="./images/clock.jpg" alt="Logo" style="height: 50px;">
+            <img src="./images/home.png" alt="Logo" style="height: 50px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,15 +51,28 @@
         <h1><br></h1>
         <div id="clock">Loading time...</div>
     </div>
-    <!--Buttons-->
-    <div class="button-container">
-        <div id="clock-in">
-            <p>IN</p>
-        </div>
-        <div id="clock-out">
-            <p>OUT</p>
-        </div>
-    </div>
+   <!-- Original Buttons -->
+<div class="button-container">
+    <button id="clock-in" type="button" onclick="showNewButtons('in')">
+        <p>IN</p>
+    </button>
+    <button id="clock-out" type="button" onclick="showNewButtons('out')">
+        <p>OUT</p>
+    </button>
+</div>
+
+<!-- New buttons for IN (Initially hidden) -->
+<div id="in-buttons" class="fade-in-buttons" style="display:none;">
+    <button id="new-in-button-1" type="button">Clock In</button>
+    <button id="new-in-button-2" type="button">Back From Break</button>
+</div>
+
+<!-- New buttons for OUT (Initially hidden) -->
+<div id="out-buttons" class="fade-in-buttons" style="display:none;">
+    <button id="new-out-button-1" type="button">Clock Out</button>
+    <button id="new-out-button-2" type="button">Go On Break</button>
+</div>
+    
     <!-- page content -->
     <script src="./clockout.js"></script>
 </body>
